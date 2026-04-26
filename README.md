@@ -11,6 +11,7 @@ This repository contains a selection of academic projects completed during my Ma
 
 A fully normalized relational database simulating an e-commerce platform for video games and electronics. Designed and implemented in MySQL, the project covers schema design (DDL), data population, transactional data management (DML), and a full suite of analytical queries (DQL) including views, CTEs, window functions, and joins. It also includes ML-ready data extraction queries for use cases such as customer segmentation, sales forecasting, churn prediction, and product recommendations. The schema follows 1NF, 2NF, and 3NF, with constraints, indexes, and foreign keys enforcing data integrity throughout.
 
+<<<<<<< HEAD
 **My contribution:** This was an individual project completed entirely independently. I designed the full normalized schema, wrote all DDL including constraints and indexes, populated the database with realistic sample data, developed the full suite of analytical queries including views, window functions, and CTEs, and built the ML-ready data extraction pipelines.
 
 **Files:** `DDL_AND_POPULATION_ecommerce.sql`, `DML_ecommerce_dynamic_data_management.sql`, `DQL_Query_ecommerce.sql`, `DQL_Query_Track_ecommerce.sql`, `DQL_VIEW_ecommerce.sql`, `DQL_WINDOW_FUNCTION_ecommerce.sql`, `DQL_CTE_ecommerce.sql`, `machinelearning.sql`, `ecommerceERD.pdf`, `Database_Design_Report.pdf`
@@ -115,3 +116,12 @@ A multiclass classification project applying a feed-forward artificial neural ne
 | Machine Learning | TensorFlow/Keras, scikit-learn Pipelines, hyperparameter tuning |
 | Programming | Python, SQL |
 | Visualization | Matplotlib, Seaborn, Power BI, Tableau, Flourish |
+=======
+### Marketing Analytics – Customer Segmentation (K-Means in Excel)
+A cluster segmentation analysis performed on a 100-customer commerce dataset containing demographic, geographic, and behavioral variables. Using K-Means clustering, customers were grouped into four distinct segments based on age, income, purchasing behavior, and campaign engagement. Each cluster was profiled and mapped to targeted marketing strategies across product, price, place, and promotion.
+**My contribution:** I handled the full segmentation pipeline — encoding the categorical variables, applying Z-score standardization across all features, computing Euclidean distances to each centroid, and assigning all 100 customers to their clusters in their respective Excel sheets.
+
+### Data Visualization – Bike Sharing & Housing Prices (Power BI)
+A two-part dashboard assignment built in Power BI covering a bike sharing dataset and a real estate housing prices dataset. The project applied exploratory data analysis, statistical summaries, forecasting, and key influencer analysis to extract actionable business insights from both datasets.
+**My contribution:** I built the four Power BI report pages covering the housing dataset end-to-end. I handled missing value imputation using a DAX measure to filter NA values and fill them with the mean sale price, then built all the visuals: distribution analysis, correlation heatmap, outlier detection boxplots, a real estate price forecast, a decomposition tree breaking down average sale price by property attributes, and a key influencers analysis identifying lot area, year built, and bedroom count as the main price drivers. I used Python code to build visualization used on this platform, but applying them to Power BI to show that both tools can be used to generate insightful visualizations.
+>>>>>>> 0e9141a196399ecb9b38afe89e7a53071ef9bb53
