@@ -116,12 +116,4 @@ A multiclass classification project applying a feed-forward artificial neural ne
 | Machine Learning | TensorFlow/Keras, scikit-learn Pipelines, hyperparameter tuning |
 | Programming | Python, SQL |
 | Visualization | Matplotlib, Seaborn, Power BI, Tableau, Flourish |
-=======
-### Marketing Analytics – Customer Segmentation (K-Means in Excel)
-A cluster segmentation analysis performed on a 100-customer commerce dataset containing demographic, geographic, and behavioral variables. Using K-Means clustering, customers were grouped into four distinct segments based on age, income, purchasing behavior, and campaign engagement. Each cluster was profiled and mapped to targeted marketing strategies across product, price, place, and promotion.
-**My contribution:** I handled the full segmentation pipeline — encoding the categorical variables, applying Z-score standardization across all features, computing Euclidean distances to each centroid, and assigning all 100 customers to their clusters in their respective Excel sheets.
 
-### Data Visualization – Bike Sharing & Housing Prices (Power BI)
-A two-part dashboard assignment built in Power BI covering a bike sharing dataset and a real estate housing prices dataset. The project applied exploratory data analysis, statistical summaries, forecasting, and key influencer analysis to extract actionable business insights from both datasets.
-**My contribution:** I built the four Power BI report pages covering the housing dataset end-to-end. I handled missing value imputation using a DAX measure to filter NA values and fill them with the mean sale price, then built all the visuals: distribution analysis, correlation heatmap, outlier detection boxplots, a real estate price forecast, a decomposition tree breaking down average sale price by property attributes, and a key influencers analysis identifying lot area, year built, and bedroom count as the main price drivers. I used Python code to build visualization used on this platform, but applying them to Power BI to show that both tools can be used to generate insightful visualizations.
->>>>>>> 0e9141a196399ecb9b38afe89e7a53071ef9bb53
