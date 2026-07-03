@@ -102,6 +102,18 @@ A multiclass classification project applying a feed-forward artificial neural ne
 
 **Tools:** Python (TensorFlow/Keras, scikit-learn, pandas, seaborn, matplotlib)
 
+--- 
+
+9. SaaS R&D FP&A Model – Budget vs. Actuals (Excel)
+
+A financial planning and analysis model simulating the monthly FP&A reporting cycle for the R&D division of a SaaS company. The model covers 14 cost lines across four expense categories (Compensation & Benefits, Cloud & Infrastructure, Software & Licenses, Contracts & Vendors) and tracks full-year FY2026 actuals against the approved annual budget. The Variance Engine uses a dynamic month selector to automatically calculate YTD actuals, YTD budget, absolute and percentage variances, and automated status flags (On Track / Watch / Over Budget) for each line item. The Executive Summary sheet consolidates results into a stakeholder-ready management report with category-level breakdowns and written commentary covering general outlook, key risk areas, and recommendations.
+
+My contribution: This was an individual project completed entirely independently. I designed the full four-sheet model architecture (Raw_Data, Budget, Variance_Engine, Executive_Summary), built the dynamic month selector logic so all YTD figures update automatically without manual re-entry, implemented the status flag rules, and wrote the executive commentary reflecting real FP&A thinking — flagging cost overrun trends, identifying the highest-risk categories, and recommending a mid-year reforecast.
+
+Files: FP_A_Model.xlsx
+
+Tools: Excel (advanced formulas, pivot tables, dynamic references, conditional logic)
+
 ---
 
 ## Skills Demonstrated
@@ -115,5 +127,6 @@ A multiclass classification project applying a feed-forward artificial neural ne
 | Prescriptive Analytics | Monte Carlo Simulation, cost-benefit analysis |
 | Machine Learning | TensorFlow/Keras, scikit-learn Pipelines, hyperparameter tuning |
 | Programming | Python, SQL |
+| Financial Modeling | Advanced Excel, multi-sheet FP&A model architecture, SUMIFS-based dynamic aggregations, pivot tables with category/department drill-down, variance tracking, conditional logic |
 | Visualization | Matplotlib, Seaborn, Power BI, Tableau, Flourish |
 
